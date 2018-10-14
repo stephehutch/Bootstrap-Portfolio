@@ -19,7 +19,7 @@ header{
     z-index: 1;
     background-size: cover;*/
     background-image:url("background.jpg");
-    height: 1500px;
+    height: 1400px;
 }
 
 h1 {
@@ -89,6 +89,8 @@ footer {
     color: #ffffff;
     font-size: 200%;
     border-top: teal 5px Solid;
+    bottom:0px;
+    z-index: 1;
 }
 
 #biopic {
@@ -121,8 +123,6 @@ img{
     position: relative;
     background-color: teal;
     bottom: 40px;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 150%;
     text-align: center;
 }
@@ -200,3 +200,11 @@ label {
     margin-top: 20px;
 }
 
+#indexfoot {
+    position: relative;
+    top: 200px;
+}
+
+#portfoliofoot {
+    position: relative;
+}
